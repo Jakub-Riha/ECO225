@@ -6,7 +6,7 @@ This repository contains code and supporting files for the ECO225 replication pr
 
 The full analysis is contained in the Jupyter Notebook:
 
-- `Project_3_Final.ipynb` – Contains data cleaning, visualisation, and machine learning pipeline for classification tasks on Kiva loan data.
+- `ECO225_Code.ipynb` – Contains data cleaning, visualisation, and machine learning pipeline for classification tasks on Kiva loan data.
 
 To replicate the results, ensure you’ve downloaded the required datasets (see below), place them in the appropriate folder, and run the notebook from top to bottom.
 
