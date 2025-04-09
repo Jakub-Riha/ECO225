@@ -15,7 +15,7 @@ This repository contains code and supporting files for a machine learning analys
 **Main File:**
 - `ECO225_Code.ipynb` – A Jupyter Notebook containing:
   - Data cleaning and preprocessing  
-  - Visualizations of key trends  
+  - Visualisations of key trends  
   - Feature engineering  
   - Machine learning pipeline for loan classification  
 
