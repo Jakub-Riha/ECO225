@@ -1,30 +1,57 @@
 # ECO225 Replication Project
 
-This repository contains code and supporting files for the ECO225 replication project. Due to file size limitations on GitHub, not all datasets used in the analysis are stored directly in this repository.
+Replication materials for the ECO225 course project on Kiva loan data.
 
-## 📊 Code and Analysis
+---
 
-The full analysis is contained in the Jupyter Notebook:
+## 📄 Project Description
 
-- `ECO225_Code.ipynb` – Contains data cleaning, visualisation, and machine learning pipeline for classification tasks on Kiva loan data.
+This repository contains code and supporting files for a machine learning analysis of microloan descriptions from Kiva.org. The project aims to classify loan descriptions using various supervised learning models, incorporating both textual sentiment and economic indicators.
 
-To replicate the results, ensure you’ve downloaded the required datasets (see below), place them in the appropriate folder, and run the notebook from top to bottom.
+---
 
-## Accessing the Full Datasets
+## 💻 Code & Analysis
 
-To access the full datasets required for replication, please visit the following Kaggle page:
+**Main File:**
+- `ECO225_Code.ipynb` – A Jupyter Notebook containing:
+  - Data cleaning and preprocessing  
+  - Visualizations of key trends  
+  - Feature engineering  
+  - Machine learning pipeline for loan classification  
 
-🔗 [https://www.kaggle.com/code/mhajabri/kiv-me-a-loan/input](https://www.kaggle.com/code/mhajabri/kiv-me-a-loan/input)
+**To Replicate:**
 
-From that page, download:
+1. Download the required datasets (see below)  
+2. Place them in the appropriate folder  
+3. Open the notebook and run all cells sequentially  
 
-- **`loans.csv`** – The full primary dataset used in the analysis.  
-- **`loan_coords.csv`** – Contains geographical coordinates (latitude and longitude) for each loan.
+---
 
-## Included in This Repository
+## 🗂️ Datasets
 
-The following supporting datasets have been uploaded here for convenience:
+**External (must be downloaded):**  
+📥 [Kiva Kaggle Dataset](https://www.kaggle.com/code/mhajabri/kiv-me-a-loan/input)
 
-- `gdp_data.csv` – Country-level GDP data.  
-- `mpi_data.csv` – Multidimensional Poverty Index (MPI) data.  
-- `llm_subsample.csv` – A labeled subsample of 2,000 loans using a Large Language Model (LLM) for machine learning tasks.
+Required files:
+- `loans.csv` – Primary loan-level data  
+- `loan_coords.csv` – Geographical coordinates for each loan  
+
+**Included in this repository:**
+- `gdp_data.csv` – Country-level GDP  
+- `mpi_data.csv` – Multidimensional Poverty Index  
+- `llm_subsample.csv` – Subsample of 2,000 LLM-labeled loans used in classification tasks  
+- `ECO225_Paper.pdf` – Final write-up for the project  
+
+---
+
+## ⚙️ Dependencies
+
+- Python 3.8+
+- Jupyter Notebook  
+- Core packages used: `pandas`, `numpy`, `sklearn`, `matplotlib`, `seaborn`
+
+---
+
+## 📌 Notes
+
+Due to GitHub’s file size limits, only essential supporting files are included. For full replication, refer to the Kaggle dataset linked above.
