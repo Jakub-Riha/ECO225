@@ -1,12 +1,13 @@
 # ECO225 Replication Project
 
-Replication materials for the ECO225 course project on Kiva loan data.
+Replication materials for an ECO225 course project on Kiva loan data.
 
 ---
 
 ## 📄 Project Description
 
-This repository contains code and supporting files for a machine learning analysis of microloan descriptions from Kiva.org. The project aims to classify loan descriptions using various supervised learning models, incorporating both textual sentiment and economic indicators.
+This repository contains the paper PDF, code, and supporting files, for a machine learning analysis of microloan descriptions from Kiva.org. The project aims to use classified loan descriptions to investigate whether microfinance institutions allocate loan capital in
+proportion to borrower financial need and whether repeated borrowing grows or shrinks, by running fixed effects regressions.
 
 ---
 
@@ -39,8 +40,8 @@ Required files:
 **Included in this repository:**
 - `gdp_data.csv` – Country-level GDP  
 - `mpi_data.csv` – Multidimensional Poverty Index  
-- `llm_subsample.csv` – Subsample of 2,000 LLM-labeled loans used in classification tasks  
-- `ECO225_Paper.pdf` – Final write-up for the project  
+- `llm_subsample.csv` – Subsample of 2,000 LLM-labeled loans used in classification tasks 
+- `ECO225_Paper.pdf` – Paper PDF for the project  
 
 ---
 
