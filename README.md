@@ -1,4 +1,5 @@
-# ECO225 Replication Project
+# Do Microfinance Institutions Prioritise Need? Evidence from Loan Allocation and Repeat
+Borrowing Patterns 
 
 Replication materials for an ECO225 course project on Kiva loan data.
 
