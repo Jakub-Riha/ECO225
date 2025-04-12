@@ -1,13 +1,12 @@
 # Do Microfinance Institutions Prioritise Need? Evidence from Loan Allocation and Repeat Borrowing Patterns 
 
-Replication materials for an ECO225 course project on Kiva loan data.
+Replication files & code for an ECO225 course project.
 
 ---
 
 ## 📄 Project Description
 
-This repository contains the paper PDF, code, and supporting files, for a machine learning analysis of microloan descriptions from Kiva.org. The project aims to use classified loan descriptions to investigate whether microfinance institutions allocate loan capital in
-proportion to borrower financial need and whether repeated borrowing grows or shrinks, by running fixed effects regressions.
+This repository contains the paper PDF, code, and supporting files, for a regression and machine learning analysis of microloans from Kiva.org. The project aims to use  loan descriptions classified into low-need and high-need loans to investigate whether microfinance institutions allocate loan capital in proportion to borrower financial need, and whether repeated borrowing grows or shrinks.
 
 ---
 
@@ -18,7 +17,8 @@ proportion to borrower financial need and whether repeated borrowing grows or sh
   - Data cleaning and preprocessing  
   - Visualisations of key trends  
   - Feature engineering  
-  - Machine learning pipeline for loan classification  
+  - Machine learning pipeline for loan classification
+  - Regression analysis of loans and disbursement amounts
 
 **To Replicate:**
 
