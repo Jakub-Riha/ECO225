@@ -6,7 +6,7 @@ Replication files & code for an ECO225 course project.
 
 ## 📄 Project Description
 
-This repository contains the paper PDF, code, and supporting files, for a regression and machine learning analysis of microloans from Kiva.org. The project aims to use  loan descriptions classified into low-need and high-need loans to investigate whether microfinance institutions allocate loan capital in proportion to borrower financial need, and whether repeated borrowing grows or shrinks.
+This repository contains the paper PDF, conference presentation PDF, code, and supporting files, for a regression and machine learning analysis of microloans from Kiva.org. The project aims to use  loan descriptions classified into low-need and high-need loans to investigate whether microfinance institutions allocate loan capital in proportion to borrower financial need, and whether repeated borrowing grows or shrinks.
 
 ---
 
@@ -41,7 +41,8 @@ Required files:
 - `gdp_data.csv` – Country-level GDP  
 - `mpi_data.csv` – Multidimensional Poverty Index  
 - `llm_subsample.csv` – Subsample of 2,000 LLM-labeled loans used in classification tasks 
-- `ECO225_Paper.pdf` – Paper PDF for the project  
+- `ECO225_Paper.pdf` – Paper PDF for the project
+- `Tech-Econference_Presentation.pdf` – Presentation PDF for the project at the 5th Annual Econ-Tech Conference (2025), University of Toronto
 
 ---
 
